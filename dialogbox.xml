@@ -1,0 +1,77 @@
+<!-- res/layout/activity_survey.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Product Rating Section -->
+    <TextView
+        android:id="@+id/rating_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate this Product"
+        android:textSize="18sp" />
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1"
+        android:rating="0" />
+
+    <!-- Review Section -->
+    <TextView
+        android:id="@+id/review_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write a Review"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/review_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Share your experience..."
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:layout_marginTop="8dp" />
+
+    <!-- Additional Feedback Section -->
+    <TextView
+        android:id="@+id/feedback_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional Feedback"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <CheckBox
+        android:id="@+id/feedback_on_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product arrived on time" />
+
+    <CheckBox
+        android:id="@+id/feedback_as_described"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product as described" />
+
+    <CheckBox
+        android:id="@+id/feedback_recommend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Would recommend to a friend" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Feedback"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>

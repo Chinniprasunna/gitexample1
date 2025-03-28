@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Feedback Survey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .rating, .review, .additional-feedback {
+            margin-bottom: 20px;
+        }
+        .rating span, .additional-feedback label {
+            display: block;
+            margin-top: 8px;
+        }
+        .rating input {
+            margin-right: 8px;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-top: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #FF9900;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #e68a00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Customer Feedback Survey</h1>
+
+        <!-- Product Rating Section -->
+        <div class="rating">
+            <label for="rating">Rate this Product:</label>
+            <input type="radio" id="star5" name="rating" value="5"><label for="star5">★★★★★</label>
+            <input type="radio" id="star4" name="rating" value="4"><label for="star4">★★★★</label>
+            <input type="radio" id="star3" name="rating" value="3"><label for="star3">★★★</label>
+            <input type="radio" id="star2" name="rating" value="2"><label for="star2">★★</label>
+            <input type="radio" id="star1" name="rating" value="1"><label for="star1">★</label>
+        </div>
+
+        <!-- Review Section -->
+        <div class="review">
+            <label for="review">Write a Review:</label>
+            <textarea id="review" name="review" rows="5" placeholder="Share your experience..."></textarea>
+        </div>
+
+        <!-- Additional Feedback Section -->
+        <div class="additional-feedback">
+            <label>Additional Feedback:</label>
+            <input type="checkbox" id="feedback_on_time" name="feedback_on_time">
+            <label for="feedback_on_time">Product arrived on time</label>
+            <input type="checkbox" id="feedback_as_described" name="feedback_as_described">
+            <label for="feedback_as_described">Product as described</label>
+            <input type="checkbox" id="feedback_recommend" name="feedback_recommend">
+            <label for="feedback_recommend">Would recommend to a friend</label>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit Feedback</button>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Feedback Survey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .rating, .review, .additional-feedback {
+            margin-bottom: 20px;
+        }
+        .rating span, .additional-feedback label {
+            display: block;
+            margin-top: 8px;
+        }
+        .rating input {
+            margin-right: 8px;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-top: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #FF9900;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #e68a00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Customer Feedback Survey</h1>
+
+        <!-- Product Rating Section -->
+        <div class="rating">
+            <label for="rating">Rate this Product:</label>
+            <input type="radio" id="star5" name="rating" value="5"><label for="star5">★★★★★</label>
+            <input type="radio" id="star4" name="rating" value="4"><label for="star4">★★★★</label>
+            <input type="radio" id="star3" name="rating" value="3"><label for="star3">★★★</label>
+            <input type="radio" id="star2" name="rating" value="2"><label for="star2">★★</label>
+            <input type="radio" id="star1" name="rating" value="1"><label for="star1">★</label>
+        </div>
+
+        <!-- Review Section -->
+        <div class="review">
+            <label for="review">Write a Review:</label>
+            <textarea id="review" name="review" rows="5" placeholder="Share your experience..."></textarea>
+        </div>
+
+        <!-- Additional Feedback Section -->
+        <div class="additional-feedback">
+            <label>Additional Feedback:</label>
+            <input type="checkbox" id="feedback_on_time" name="feedback_on_time">
+            <label for="feedback_on_time">Product arrived on time</label>
+            <input type="checkbox" id="feedback_as_described" name="feedback_as_described">
+            <label for="feedback_as_described">Product as described</label>
+            <input type="checkbox" id="feedback_recommend" name="feedback_recommend">
+            <label for="feedback_recommend">Would recommend to a friend</label>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit Feedback</button>
+    </div>
+</body>
+</html>
